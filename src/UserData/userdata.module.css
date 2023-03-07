@@ -1,0 +1,57 @@
+.main {
+    width: 600px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.userdata, .concreate_user {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.username, .concreate_name {
+    width: 75%;
+    text-align: start;
+}
+
+.age, .concreate_age {
+    width: 40%;
+}
+
+.gender, .concreate_gender {
+    width: 15%;
+    text-align: end;
+}
+
+.break {
+    padding-bottom: 20px;
+    height: 1px;
+    background-color: #1C315E;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li:nth-child(odd) {
+    background-color: #eefae8;
+}
+
+li:nth-child(even) {
+    background-color: #fff;
+}
+
+.gender {
+    flex-direction: 
+}

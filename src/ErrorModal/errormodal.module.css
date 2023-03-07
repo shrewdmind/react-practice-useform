@@ -1,0 +1,45 @@
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+.error {
+    display: flex;
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    postion: relative;
+    background-color: #F05454;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+
+.input {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #121212;
+    color: #fff;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+}
+
+.input:hover {
+    background-color: #FF1E00;
+    cursor: pointer;
+}

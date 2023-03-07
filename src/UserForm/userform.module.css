@@ -1,0 +1,49 @@
+.userform {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #ggg;
+    width: 600px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.userprofile {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.label {
+    padding-bottom: 5px;
+}
+
+.input {
+    height: 40px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #1C315E;
+    color: #fff;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #227C70;
+    cursor: pointer;
+}
+
+.gender {
+    padding: 5px 0 5px 0;
+}
+
+.selection {
+    height: 30px;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
